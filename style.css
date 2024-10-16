@@ -1,0 +1,110 @@
+html {
+    font-size: 16px;
+}
+
+header{
+    background-color: #28340B;
+    padding: 20px 10px 10px 20px;
+    width:100%;
+   
+}
+body { 
+    font-family:'Euphemia', sans-serif;
+    color:#6F6E31;
+    font-size: 16px;
+    width: 95%;
+}
+
+
+h1{
+    font-family: 'Homemade Apple', cursive ;
+    text-align:start;
+    font-size: 1.8rem;
+    color:#EFE4CF;
+}
+h2{
+    font-family: 'Homemade Apple', cursive ;
+    text-align: center;
+    font-size: 1.7rem;
+}
+h3{
+    border-bottom:solid  #28340B;
+    font-family: 'Homemade Apple', cursive ;
+    font-size: 1.2rem;
+}
+p{
+    font-size : 0.9rem;
+    line-height: 150%;
+}
+li{
+    font-size: 0.9rem;
+}
+
+a{
+    color:#EFE4CF ;
+    text-decoration :none;
+}
+figcaption{
+    font-size: 0.6rem;
+    max-width: 300px;
+}
+img{
+    flex-basis: 30%;
+}
+
+footer{
+    background-color: #28340B;
+    padding: 10px;
+}
+
+.lien-header{
+    display:flex;
+    justify-content: right;
+    gap : 5px;
+    font-size: 0.8rem;
+    margin-right: 2%;
+}
+
+.liste-boutons-header{
+    background-color: #EFE4CF;
+    width: 10%;
+    padding: 1% ;
+    border-radius: 170px 0 170px 0;
+    color: #28340B;
+    text-align: center;
+    margin-top: -3%;
+}
+.liste-boutons-header:hover {
+    background-color: #6F6E31;
+}
+a:hover {
+    font-weight: bold;
+    color:#EFE4CF;
+  }
+
+
+
+.credits{
+    color:#EFE4CF;
+    font-size : 0.8rem;
+    text-align : end;
+    margin-right : 3%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+    header {
+        padding: 20px 5px 0 5px; 
+    }
+    .lien-header{
+        font-size: 0.6rem;
+    }
+
+}
+@viewport {
+    width: device-width;
+    zoom: 1; 
+ }

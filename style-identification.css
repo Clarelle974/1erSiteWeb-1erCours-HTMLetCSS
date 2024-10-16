@@ -1,0 +1,24 @@
+.bloc-description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.img-iden{
+    flex: 1 1 20%;
+    border-radius: 15px;
+    max-width:200px;
+    height:auto;
+    margin: 10px;
+
+}
+.img-iden:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     border: 8px solid #EFE4CF;
+     box-shadow: 3px 3px 2px 1px #A18748;
+}
